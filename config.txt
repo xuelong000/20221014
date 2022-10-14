@@ -5,7 +5,7 @@ appid = wxd030a5b50cfcfb2b
 ; 公众号AppSecret
 AppSecret = 445d652cec916366438b72c60d1a837f
 ; 模板id
-template_id = {'天气': 'VQQ8reVKzEb4ERw0GM1puIKyESPjmTqWROYC9KH8zd0', '仙女': 'Is-g2ZvhYzNJG6kwlSjRm3VJp-nyx9qokInM6PxrPZI', '知识': '0VEXYdj90Z5TUETLwlfImRrbM44Pki1HYSfFr2bvcG4'}
+template_id = {'HI宝贝': 'VQQ8reVKzEb4ERw0GM1puIKyESPjmTqWROYC9KH8zd0', '宝贝专区': 'Is-g2ZvhYzNJG6kwlSjRm3VJp-nyx9qokInM6PxrPZI', '宝贝知识': '0VEXYdj90Z5TUETLwlfImRrbM44Pki1HYSfFr2bvcG4'}
 ; 微信用户id
 ; 多个样式 ['xxx', 'xxxxx', 'xxxx']
 openid = ['oigLI5mojPIZUaejt6482a8iQ7mE', 'oigLI5s2Vp0h9DAifMs_Uttzt39U']
