@@ -163,7 +163,7 @@ class Weather:
         self.data['birthday'] = dict(value=day)
 
     def yunshi(self):
-        url = f'http://api.tianapi.com/star/index?key={self.T_key}&astro=处女座'
+        url = f'http://api.tianapi.com/star/index?key={self.T_key}&astro=射手座'
         resp = requests.get(url)
         content = resp.json()['newslist'][-1]['content']
         self.text_data['yunshi'] = {
