@@ -61,14 +61,14 @@ class Weather:
             except:
                 print('template_id 格式错误，请检查')
             for key, value in template_ids.items():
-                if key == '天气':
+                if key == 'HI宝贝':
                     data = {
                         'touser': i,
                         'template_id': value,
                         'url': '',
                         'data': self.data
                     }
-                elif key == '仙女':
+                elif key == '宝贝专区':
                     data = {
                         'touser': i,
                         'template_id': value,
@@ -137,11 +137,11 @@ class Weather:
         }
         if (lianai_c.days + 1) % 365 == 0:
             self.data['beizhu'] = {
-                'value': f'今天是恋爱纪念日哦 QAQ',
+                'value': f'今天是结婚纪念日哦 (*^▽^*)',
             }
         else:
             self.data['beizhu'] = {
-                'value': f'想{self.name}的每一天 QAQ',
+                'value': f'想{self.name}的每一天  (｡♥ᴗ♥｡) ',
             }
 
     def get_birthday(self):
@@ -197,7 +197,7 @@ class Weather:
             }
         else:
             self.zhishi_data['caihongpi'] = {
-                'value': '世上最美丽的小仙女，你好啊！',
+                'value': '世上最美丽的小宝贝，你好啊！',
                 
             }
 
