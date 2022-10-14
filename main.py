@@ -1,10 +1,8 @@
 import time
-from datetime 
-import datetime
+from datetime import datetime
 import random
 import requests
-from configparser 
-import ConfigParser
+from configparser import ConfigParser
 import os
 
 
@@ -63,14 +61,14 @@ class Weather:
             except:
                 print('template_id 格式错误，请检查')
             for key, value in template_ids.items():
-                if key == 'Hi,宝贝':
+                if key == '天气':
                     data = {
                         'touser': i,
                         'template_id': value,
                         'url': '',
                         'data': self.data
                     }
-                elif key == '宝贝专区':
+                elif key == '仙女':
                     data = {
                         'touser': i,
                         'template_id': value,
