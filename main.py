@@ -7,6 +7,7 @@ import os
 import http.client, urllib
 import json
 
+class Weather:
     def __init__(self):
         self.config = ConfigParser()
         try:
