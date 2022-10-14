@@ -61,14 +61,14 @@ class Weather:
             except:
                 print('template_id 格式错误，请检查')
             for key, value in template_ids.items():
-                if key == '天气':
+                if key == 'Hi,宝贝':
                     data = {
                         'touser': i,
                         'template_id': value,
                         'url': '',
                         'data': self.data
                     }
-                elif key == '仙女':
+                elif key == '宝贝专区':
                     data = {
                         'touser': i,
                         'template_id': value,
