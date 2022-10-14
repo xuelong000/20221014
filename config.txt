@@ -21,6 +21,6 @@ birthday = {'阳历': '12-09'}
 ; 星座（xx座）
 xingzuo = 射手座
 ; 经期
-jingqi = 2022-10-14
+jingqi = 2022-10-08
 ; 爱称
 name = 你爱你
