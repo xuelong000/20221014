@@ -141,7 +141,7 @@ class Weather:
             }
         else:
             self.data['beizhu'] = {
-                'value': f'想{self.name}的每一天  (｡♥ᴗ♥｡) ',
+                'value': f'想{self.name}的每一天  (๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤',
             }
 
     def get_birthday(self):
