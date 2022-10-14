@@ -4,7 +4,8 @@ import random
 import requests
 from configparser import ConfigParser
 import os
-
+import http.client, urllib
+import json
 
 class Weather:
     def __init__(self):
