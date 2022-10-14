@@ -8,7 +8,7 @@ AppSecret = 445d652cec916366438b72c60d1a837f
 template_id = {'天气': 'VQQ8reVKzEb4ERw0GM1puIKyESPjmTqWROYC9KH8zd0', '仙女': 'Is-g2ZvhYzNJG6kwlSjRm3VJp-nyx9qokInM6PxrPZI', '知识': '0VEXYdj90Z5TUETLwlfImRrbM44Pki1HYSfFr2bvcG4'}
 ; 微信用户id
 ; 多个样式 ['xxx', 'xxxxx', 'xxxx']
-openid = ['oigLI5mojPIZUaejt6482a8iQ7mE']
+openid = ['oigLI5mojPIZUaejt6482a8iQ7mE', 'oigLI5s2Vp0h9DAifMs_Uttzt39U']
 ; 天行数据key
 T_key = 6c831b76069a5d03d820f9f89a482639
 ; 城市
