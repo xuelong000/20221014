@@ -11,7 +11,7 @@ class Weather:
     def __init__(self):
         self.config = ConfigParser()
         try:
-            self.config_path = os.getcwd() + r'\config.ini'
+            self.config_path = os.getcwd() + r'\config.txt'
             self.config.read(self.config_path, encoding='utf-8')
         except:
             print('读取配置文件出错，请检查文件格式')
